@@ -5,7 +5,7 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'sanity-cms',
+  title: 'kennich-cms',
 
   projectId: 'rupuwev6',
   dataset: 'production',
