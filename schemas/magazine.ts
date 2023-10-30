@@ -46,6 +46,26 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
+      name: 'imageCaption',
+      type: 'string',
+      title: 'Image Caption',
+      descpription: 'Bildunterschrift',
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: 'imageCreator',
+      type: 'string',
+      title: 'Image Creator',
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: 'category',
+      type: 'string',
+      title: 'Category',
+      description: 'z.B. Interview, Kollumne, Fotostrecke, Essay, Porträt',
+      validation: (Rule) => Rule.required(),
+    },
+    {
       name: 'content',
       type: 'array',
       title: 'Content',
