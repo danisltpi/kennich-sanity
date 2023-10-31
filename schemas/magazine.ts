@@ -50,13 +50,11 @@ export default {
       type: 'string',
       title: 'Image Caption',
       descpription: 'Bildunterschrift',
-      validation: (Rule) => Rule.required(),
     },
     {
       name: 'imageCreator',
       type: 'string',
       title: 'Image Creator',
-      validation: (Rule) => Rule.required(),
     },
     {
       name: 'category',
