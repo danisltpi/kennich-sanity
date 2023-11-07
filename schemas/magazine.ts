@@ -46,12 +46,6 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
-      name: 'imageCaption',
-      type: 'string',
-      title: 'Image Caption',
-      descpription: 'Bildunterschrift',
-    },
-    {
       name: 'imageCreator',
       type: 'string',
       title: 'Image Creator',
@@ -73,6 +67,13 @@ export default {
         },
         {
           type: 'image',
+          fields: [
+            {
+              name: 'creator',
+              type: 'string',
+              title: 'Creator',
+            },
+          ],
         },
       ],
     },
